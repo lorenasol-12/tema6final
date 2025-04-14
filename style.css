@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-color: deeppink;
+    color: black;
+    display: inline-block;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+     margin: 0px 0px 30px;
+ }
+
+.nav{
+    background-color: dimgrey;
+    text-align: center;
+    padding: 20px;
+}
+
+.link{
+    color:white;
+    margin: 0 15px 0 30px;
+    text-decoration: none;
+}
+    
+.div{
+    background-color: deeppink;
+    text-align: center;
+    padding: 50px;
+    margin: -5px;
+}
+
+.h2.p{
+    text-align: center;
+    margin: 30px;
+    
+}
+.produc{
+    text-align: center;
+    margin-top: 50px;
+}
+.art{
+    background-color: darkseagreen;
+    display: inline-block;
+    width: 430px;
+    height: 430px;
+    margin: 80px;
+    border: 1px solid grey;    
+}
+
+.art h4,.art p, .art h5{
+    text-align: center;
+    margin: 8px;
+}
+
+.art img, .art1 img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin: 30px 90px 10px;
+}
+.art a, .art2 a{
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: beige;
+    display: block;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 8px auto;
+}
+.h3{
+    text-align: center;
+    margin: 30px;
+}
+.nus{
+    text-align: center;
+    margin: 50px;
+}
+.cat{
+    display: inline-block;
+    margin: 90px;
+    border: 1px solid grey; 
+}
+.img{
+    display: inline-block;
+    text-align: center;
+    padding: 120px;
+    object-fit: cover;
+ }
+ .texto{
+    text-align: center;
+   margin-top: 10px;
+ }
+
+.nombre{
+    text-align: center;
+    margin: 20px;
+}
+.art1{
+    background-color: darkseagreen;
+    display: inline-block;
+    width: 430px;
+    height: 430px;
+    margin: 80px;
+    border: 1px solid grey;      
+}
+.img1{
+    border-radius: 100px;
+}
+.section{
+    text-align: center;
+   margin: 30px;  
+}
+.sec{
+    margin: 20px;
+}
+.dl{
+    background-color: rgb(247, 244, 244);
+    width: 1200px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+    gap: 10px;
+}
+.tex{
+    text-align: center;
+}
+.dl dd{
+   text-align: center;
+   color: darkgrey;
+   margin: 0px 25px;
+}
+.mai{
+    display: flex;     
+}
+
+.main,.dl , .sec1{
+    display: flex;
+    min-height: 60vh;
+    flex-wrap: wrap;
+    align-items: flex-start;  
+    gap: 25px;    
+}
+.np{
+    display: inline-block;
+    text-align: center;
+}
+
+.sec1{
+    display: flex;
+    margin: 90px;
+    flex-wrap: wrap;
+}
+.art2{
+    background-color: darkseagreen;
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    border: 1px solid grey;  
+    text-align: center;  
+}
+.art2 h4, .art2 h5{
+    text-align: center;
+    margin: 8px;
+}
+.art2 img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin: 30px 90px 10px;
+}
+
+.tabla{
+    display:flex;
+    margin: 80px 0px 0px 0px;
+}
+ .table,th,td{
+     border: solid 1px black;
+     border-collapse: collapse;
+     padding: 10px;
+     width: 800px;
+     height: 100px;
+     
+}
+ .th,tr,td{
+    text-align: center;
+}
+ .thd{
+     background-color: black;
+     color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 700px;
+    gap: 10px;
+    margin: 40px 0px 0px 700px;
+    
+}
+.cuadro{
+   height: 30px;
+}
+.cua{
+    width: 360px;
+    height: 100px;
+}
+.cat6{
+  margin:10px 9px 10px 9px;
+
+}
+.boton{
+    width: 150px;
+    height: 25px;
+    background-color: black;
+    color: white;      
+}
+.bot{
+ display: flex;
+ justify-content: space-between;
+ margin: 0px 0px 50px 0px ;
+}
+.contacto{
+    text-align: center;
+    margin: 20px;
+}
+.sino{
+    margin: 0px 20px 0px 30px;
+}
+
+.h6{
+    text-align: center;
+    min-height: 20px;
+    background-color: darkslategrey;
+}
