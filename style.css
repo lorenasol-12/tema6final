@@ -23,6 +23,11 @@ header{
     padding: 20px;
 }
 
+#active{
+    color: black;
+}
+
+
 .link{
     color:white;
     margin: 0 15px 0 30px;
@@ -75,6 +80,10 @@ header{
     border-radius: 30px;
     text-align: center;
     margin: 8px auto;
+}
+.info:hover{
+    background-color: bisque;
+    color: black;
 }
 .h3{
     text-align: center;
@@ -223,6 +232,10 @@ header{
     height: 25px;
     background-color: black;
     color: white;      
+}
+.boton:hover{
+    background-color: white;
+    color: black;
 }
 .bot{
  display: flex;
